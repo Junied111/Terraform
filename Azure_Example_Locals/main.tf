@@ -10,10 +10,10 @@ terraform {
 #https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret
 provider "azurerm" {
   features {} 
-  client_id       = "00000000-0000-0000-0000-000000000000"
-  client_secret   = "20000000-0000-0000-0000-000000000000"
-  tenant_id       = "10000000-0000-0000-0000-000000000000"
-  subscription_id = "20000000-0000-0000-0000-000000000000"
+  client_id       = "8e1e0468-0df2-4656-9936-1f167be0ce95"
+  client_secret   = "TZz8Q~EqvlNcOXhXTW~CMKBIpLXezydK9ymEmbzX"
+  tenant_id       = "834b6d49-c7f6-4649-a9a0-b00b8df0940a"
+  subscription_id = "67ccb270-6de5-4fee-9e3c-cde3a13e97f4"
 }
 
 data "azurerm_resource_group" "rg1" {
